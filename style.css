@@ -26,9 +26,10 @@ body {
 .calculator {
   width: 400px;
   background-color: var(--secondary);
+  margin: 6%;
   padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   border-radius: 1.25rem;
-  margin: 5%;
 }
 
 .display {
@@ -57,7 +58,7 @@ body {
 }
 
 .btn {
-  height: 70px;
+  cursor: pointer;
   background-color: var(--white);
   padding: 20px;
   border: 2px solid black;
@@ -75,4 +76,21 @@ body {
 
 .btn--blue {
   background-color: var(--accent-blue);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .625rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+  color: var(--secondary);
+}
+
+footer img {
+  width: 28px;
+  height: auto;
 }
