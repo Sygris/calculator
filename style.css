@@ -28,7 +28,7 @@ body {
   background-color: var(--secondary);
   margin: 6%;
   padding: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 10px hsl(from var(--secondary) h s l / .75);
   border-radius: 1.25rem;
 }
 
